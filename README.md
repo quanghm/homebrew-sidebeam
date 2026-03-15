@@ -1,26 +1,26 @@
-# Homebrew Tap for Beamer Viewer
+# Homebrew Tap for SideBeam
 
-Native macOS PDF presenter console for Beamer slides.
+Native macOS/iOS PDF presenter console.
 
 ## Install
 
 ```bash
-brew tap quanghm/beamer-viewer
-brew install --cask beamer-viewer
+brew tap quanghm/sidebeam
+brew install --cask sidebeam
 ```
 
 ## Update
 
 ```bash
-brew upgrade --cask beamer-viewer
+brew upgrade --cask sidebeam
 ```
 
 ## Uninstall
 
 ```bash
-brew uninstall --cask beamer-viewer
+brew uninstall --cask sidebeam
 ```
 
 ## More Info
 
-See [quanghm/beamer-viewer](https://github.com/quanghm/beamer-viewer) for documentation and source code.
+See [quanghm/sidebeam](https://github.com/quanghm/sidebeam) for documentation and source code.
