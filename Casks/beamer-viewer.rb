@@ -11,6 +11,12 @@ cask "beamer-viewer" do
 
   app "BeamerViewer.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/BeamerViewer.app"],
+                   sudo: false
+  end
+
   zap trash: [
     "~/Library/Caches/com.quanghm.beamer-viewer",
     "~/Library/Preferences/com.quanghm.beamer-viewer.plist",
