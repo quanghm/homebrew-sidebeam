@@ -1,6 +1,6 @@
 cask "beamer-viewer" do
   version "0.0.6"
-  sha256 "82cf0cf52846347167ce334e33482fc0cb868ee2dec063d3776b3f17d55231cf"
+  sha256 "6f17f64875ee553d3551394df2d2d42a85516c3defe68e6eacce076293913df5"
 
   url "https://github.com/quanghm/beamer-viewer/releases/download/v#{version}/BeamerViewer-#{version}-macos.zip"
   name "Beamer Viewer"
